@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url('https://images.pexels.com/photos/346529/pexels-photo-346529.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Style untuk form */
+
+form {
+    position: fixed;
+    bottom: 200px;
+    left: 620px;
+    margin-top: 30px;
+    padding: 20px;
+    width: 450px;
+    border: 1px solid #ccc;
+    color: #191919;
+    border-radius: 5px;
+    background: transparent;
+    backdrop-filter: blur(6px);
+    font-size: 1em;
+    font-weight: 600;
+}
+
+form h2 {
+    text-align: center;
+}
+
+/* Style untuk label */
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Style untuk input */
+input[type="text"],
+input[type="number"],
+input[type="date"] {
+    width: calc(100% - 12px);
+    padding: 6px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+/* Style untuk tombol */
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 30px;
+    background: white;
+    cursor: pointer;
+    font-weight: 900;
+    color: #191919;
+}
